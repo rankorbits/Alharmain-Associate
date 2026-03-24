@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="N6kzSM9ziL_NxKPAdkAIn4H6x-gJbcHmnLtK57tXwQ8" />
+    <meta name="google-site-verification" content="jy6ZTeMInkhjf5XHEZoDdwtHuObPMu_Ha2HubnQnp4I" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="title" content="How Architecture Shapes Modern Living | Rahim Yar Khan Design">
+    <meta name="description" content="Explore how architecture, building structure, designers, contractors, builders, and developers shape modern living in Rahim Yar Khan and beyond.">
+    <meta name="keywords" content="architecture, building structure, designer, contractor, builder, developer, Rahim Yar Khan, modern living">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="">
+    <title>Architecture Shapes Modern Living | Al Harmain Associate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #ff3900;
+            --secondary: #574e4b;
+            --accent: #ff3900;
+            --accent-dark: #e03500;
+            --light: #fef8f5;
+            --dark: #2c2422;
+            --gray: #6b5e5a;
+            --light-gray: #f0eae7;
+            --white: #ffffff;
+            --gradient: linear-gradient(135deg, #ff3900 0%, #574e4b 100%);
+            --gradient-reverse: linear-gradient(135deg, #574e4b 0%, #ff3900 100%);
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            --shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.12);
+            --radius: 16px;
+            --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--light);
+            color: var(--dark);
+            line-height: 1.7;
+            font-weight: 400;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Section */
+        .header-section {
+            background: var(--gradient);
+            color: var(--white);
+            padding: 60px 30px 50px;
+            margin: 30px auto 50px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-hover);
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .header-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><path d="M0,0 L100,0 L100,100 Z" fill="rgba(255,255,255,0.05)"/></svg>');
+            opacity: 0.3;
+        }
+
+        .brand-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .brand-logo {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            transition: var(--transition);
+            overflow: hidden;
+            background: var(--white);
+            border: 4px solid var(--white);
+            position: relative;
+            z-index: 2;
+            padding: 8px;
+        }
+
+        .brand-logo:hover {
+            transform: scale(1.1) rotate(2deg);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+        }
+
+        .brand-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 50%;
+        }
+
+        .brand-text {
+            text-align: left;
+            max-width: 600px;
+        }
+
+        .brand-name {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin: 0 0 10px;
+            line-height: 1.1;
+            color: var(--white);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            letter-spacing: -0.5px;
+        }
+
+        .brand-tagline {
+            font-size: 1.2rem;
+            opacity: 0.95;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 500;
+            padding-left: 5px;
+            border-left: 3px solid var(--accent);
+        }
+
+        .header-section h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.8rem;
+            margin: 30px auto 20px;
+            font-weight: 700;
+            color: var(--white);
+            line-height: 1.2;
+            max-width: 900px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .header-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            margin: 0 auto;
+            max-width: 800px;
+            font-weight: 400;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Introduction Section */
+        .intro-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin-bottom: 60px;
+            align-items: start;
+        }
+
+        .intro-text {
+            background: var(--white);
+            padding: 50px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            position: relative;
+            border-top: 5px solid var(--primary);
+            transition: var(--transition);
+        }
+
+        .intro-text:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .intro-text::before {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--gradient);
+            border-radius: var(--radius) var(--radius) 0 0;
+        }
+
+        .intro-image {
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            height: 100%;
+            min-height: 400px;
+            transition: var(--transition);
+        }
+
+        .intro-image:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .intro-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.8s ease;
+        }
+
+        .intro-image:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Content Sections */
+        .section {
+            background: var(--white);
+            padding: 50px;
+            margin-bottom: 40px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background: var(--gradient);
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .section-icon {
+            width: 70px;
+            height: 70px;
+            background: var(--gradient);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 1.8rem;
+            flex-shrink: 0;
+            box-shadow: 0 8px 20px rgba(255, 57, 0, 0.25);
+        }
+
+        .section h2 {
+            color: var(--dark);
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.9rem;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+
+        .section p {
+            color: var(--gray);
+            line-height: 1.8;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        .section p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Special mid-article section */
+        .mid-article-section {
+            background: linear-gradient(135deg, rgba(255, 57, 0, 0.03) 0%, rgba(87, 78, 75, 0.03) 100%);
+            border-left: 4px solid var(--primary);
+        }
+
+        /* Conclusion Section with Map */
+        .conclusion-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin-bottom: 60px;
+            align-items: stretch;
+        }
+
+        .conclusion-text {
+            background: var(--white);
+            padding: 50px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            position: relative;
+            border-top: 5px solid var(--primary);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .conclusion-text h2 {
+            color: var(--dark);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .conclusion-map {
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            height: 100%;
+            min-height: 450px;
+            transition: var(--transition);
+            background: var(--light-gray);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .conclusion-map:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .conclusion-map iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 450px;
+            border: none;
+            display: block;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--white);
+            padding: 60px 40px;
+            margin-top: 80px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--gradient);
+        }
+
+        .contact-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+        .contact-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 18px 35px;
+            background: var(--gradient);
+            color: var(--white);
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            transition: var(--transition);
+            box-shadow: 0 8px 20px rgba(255, 57, 0, 0.3);
+            font-size: 1.1rem;
+        }
+
+        .contact-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(255, 57, 0, 0.4);
+            background: var(--gradient-reverse);
+        }
+
+        .footer-info {
+            margin: 30px 0;
+            color: var(--gray);
+            font-size: 1.1rem;
+        }
+
+        .copyright {
+            color: var(--gray);
+            font-size: 0.95rem;
+            margin-top: 30px;
+            padding-top: 25px;
+            border-top: 1px solid var(--light-gray);
+        }
+
+        /* CTA Banner */
+        .cta-banner {
+            background: var(--gradient);
+            color: var(--white);
+            padding: 50px;
+            border-radius: var(--radius);
+            text-align: center;
+            margin: 60px auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-banner h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .cta-banner p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+
+        /* Link styling */
+        .article-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 700;
+            transition: var(--transition);
+            border-bottom: 2px solid transparent;
+        }
+        .article-link:hover {
+            color: var(--secondary);
+            border-bottom: 2px solid var(--primary);
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .intro-container, .conclusion-container { grid-template-columns: 1fr; gap: 40px; }
+            .header-section h1, .brand-name { font-size: 2.3rem; }
+            .section { padding: 40px 30px; }
+        }
+        @media (max-width: 768px) {
+            .header-section { padding: 40px 20px; margin: 20px auto 40px; }
+            .brand-container { flex-direction: column; text-align: center; }
+            .brand-text { text-align: center; }
+            .brand-tagline { border-left: none; padding-left: 0; }
+            .section-header { flex-direction: column; text-align: center; gap: 15px; }
+            .section-icon { width: 60px; height: 60px; font-size: 1.5rem; }
+            .contact-buttons { flex-direction: column; align-items: center; }
+            .contact-btn { width: 100%; max-width: 300px; justify-content: center; }
+            .brand-logo { width: 90px; height: 90px; }
+        }
+        @media (max-width: 480px) {
+            .container { padding: 0 15px; }
+            .header-section h1, .brand-name { font-size: 1.9rem; }
+            .header-subtitle { font-size: 1.1rem; }
+            .section { padding: 30px 20px; }
+            .section h2 { font-size: 1.6rem; }
+            .intro-text, .conclusion-text { padding: 30px; }
+        }
+
+        .fade-in { animation: fadeIn 0.8s ease-out; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section with Logo Image -->
+<header class="container header-section fade-in">
+    <div class="brand-container">
+        <div class="brand-logo">
+            <img src="https://alharmainassociate.pk/wp-content/uploads/2025/12/image__23_-removebg-preview.png" alt="Al Harmain Associate Logo - Architecture & Construction">
+        </div>
+        <div class="brand-text">
+            <h1 class="brand-name">Al Harmain Associate</h1>
+            <div class="brand-tagline">Architecture & Modern Living | Insights from Rahim Yar Khan</div>
+        </div>
+    </div>
+    <h1>How does architecture shape modern living?</h1>
+    <p class="header-subtitle">Exploring design, structure, and innovation that define today's environments</p>
+</header>
+
+<!-- Introduction Section: first link placed in first paragraph -->
+<main class="container intro-container fade-in">
+    <article class="intro-text">
+        <p>Architecture plays a powerful role in shaping how people live, work, and interact every day. In growing regions like Rahim Yar Khan, the influence of <strong><a href="https://alharmainassociate.pk/" class="article-link" target="_blank" rel="noopener noreferrer">professional architecture services</a></strong> is becoming increasingly visible in residential neighborhoods, commercial zones, and public infrastructure. The layout of homes, the spacing of streets, and even the positioning of windows all affect comfort, efficiency, and lifestyle. Modern living is not just about having a place to stay; it is about experiencing spaces that are thoughtfully designed to support well-being, productivity, and convenience.</p>
+    </article>
+    <figure class="intro-image">
+        <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Modern architecture building facade with glass windows" loading="lazy">
+    </figure>
+</main>
+
+<!-- ALL ARTICLE SECTIONS: Exactly as provided, word for word, no paraphrasing, no skipping -->
+<article class="container section fade-in">
+    <div class="section-header">
+        <div class="section-icon"><i class="fas fa-drafting-compass"></i></div>
+        <h2>The role of architecture in everyday life</h2>
+    </div>
+    <p>Architecture plays a powerful role in shaping how people live, work, and interact every day. In growing regions like Rahim Yar Khan, the influence of Architecture is becoming increasingly visible in residential neighborhoods, commercial zones, and public infrastructure. The layout of homes, the spacing of streets, and even the positioning of windows all affect comfort, efficiency, and lifestyle. Modern living is not just about having a place to stay; it is about experiencing spaces that are thoughtfully designed to support well-being, productivity, and convenience.</p>
+</article>
+
+<article class="container section fade-in">
+    <div class="section-header">
+        <div class="section-icon"><i class="fas fa-cubes"></i></div>
+        <h2>How building structure impacts functionality</h2>
+    </div>
+    <p>A well-planned Building Structure determines how efficiently a space can be used. From ventilation systems to load-bearing walls, every structural element contributes to the durability and usability of a building. In modern homes, open floor plans are popular because they maximize space and allow natural light to flow freely. This structural approach enhances comfort while making homes feel larger and more connected. In urban areas, smart Building Structure designs also ensure safety, especially in regions prone to environmental challenges.</p>
+</article>
+
+<article class="container section fade-in">
+    <div class="section-header">
+        <div class="section-icon"><i class="fas fa-pencil-ruler"></i></div>
+        <h2>The influence of designers on modern homes</h2>
+    </div>
+    <p>A skilled Designer plays a crucial role in shaping modern living environments. Designers combine creativity with practicality to produce spaces that are visually appealing and highly functional. In cities like Rahim Yar Khan, Designers are incorporating contemporary styles with traditional influences, creating unique architectural identities. They focus on elements such as color schemes, textures, and spatial flow, ensuring that each home reflects the personality and needs of its occupants while maintaining modern standards.</p>
+</article>
+
+<article class="container section fade-in">
+    <div class="section-header">
+        <div class="section-icon"><i class="fas fa-hard-hat"></i></div>
+        <h2>Contractors and their role in execution</h2>
+    </div>
+    <p>While Designers create the vision, the Contractor brings it to life. Contractors ensure that architectural plans are executed accurately, safely, and within budget. Their expertise in managing materials, labor, and timelines is essential for successful construction. In modern living, the role of a Contractor has expanded to include knowledge of new construction technologies and sustainable practices. This ensures that homes are not only beautiful but also durable and efficient.</p>
+</article>
+
+<article class="container section fade-in">
+    <div class="section-header">
+        <div class="section-icon"><i class="fas fa-tools"></i></div>
+        <h2>Builders shaping residential landscapes</h2>
+    </div>
+    <p>Builders are at the forefront of transforming architectural ideas into reality. They are responsible for constructing homes, apartments, and commercial spaces that define modern living environments. In developing regions, Builders are adapting to changing demands by incorporating innovative techniques and materials. They focus on creating structures that meet the needs of growing populations while maintaining quality and affordability. The work of Builders directly influences the appearance and functionality of entire communities.</p>
+</article>
+
+<article class="container section fade-in">
+    <div class="section-header">
+        <div class="section-icon"><i class="fas fa-chart-line"></i></div>
+        <h2>Developers driving urban growth</h2>
+    </div>
+    <p>Developers play a significant role in shaping the broader architectural landscape. They plan and invest in large-scale projects such as housing societies, commercial complexes, and mixed-use developments. In places like Rahim Yar Khan, Developers are contributing to urban expansion by introducing modern infrastructure and amenities. Their projects often include parks, shopping areas, and transportation systems, which enhance the overall quality of life. Developers bridge the gap between Architecture and community development.</p>
+</article>
+
+<article class="container section fade-in">
+    <div class="section-header">
+        <div class="section-icon"><i class="fas fa-leaf"></i></div>
+        <h2>Architecture and sustainability in modern living</h2>
+    </div>
+    <p>Sustainability has become a central focus in modern Architecture. Architects and Designers are now prioritizing eco-friendly materials, energy-efficient systems, and sustainable construction practices. Features such as solar panels, rainwater harvesting systems, and natural ventilation are increasingly common. These innovations reduce environmental impact while lowering utility costs for homeowners. Sustainable Architecture ensures that modern living is not only comfortable but also responsible toward the environment.</p>
+</article>
+
+<article class="container section fade-in">
+    <div class="section-header">
+        <div class="section-icon"><i class="fas fa-microchip"></i></div>
+        <h2>Technology shaping architectural innovation</h2>
+    </div>
+    <p>Technology has revolutionized the field of Architecture, enabling more precise and efficient design processes. Advanced software allows Designers to create detailed 3D models and simulations, helping clients visualize their future spaces. Smart home technologies are also becoming integral to modern living, allowing residents to control lighting, temperature, and security systems with ease. In Rahim Yar Khan, the adoption of such technologies is gradually transforming traditional homes into modern, intelligent living spaces.</p>
+</article>
+
+<article class="container section fade-in">
+    <div class="section-header">
+        <div class="section-icon"><i class="fas fa-landmark"></i></div>
+        <h2>Cultural influence on architectural styles</h2>
+    </div>
+    <p>Architecture is deeply influenced by cultural values and traditions. In Pakistan, architectural styles often reflect a blend of historical heritage and contemporary trends. In Rahim Yar Khan, traditional elements such as courtyards and intricate detailing are being combined with modern designs. This fusion creates spaces that are both culturally meaningful and functionally advanced. Cultural influences ensure that Architecture remains relevant and connected to the identity of the people.</p>
+</article>
+
+<article class="container section fade-in">
+    <div class="section-header">
+        <div class="section-icon"><i class="fas fa-smile"></i></div>
+        <h2>Architecture improving quality of life</h2>
+    </div>
+    <p>The ultimate goal of Architecture is to enhance the quality of life. Well-designed spaces promote physical comfort, mental well-being, and social interaction. Proper lighting, ventilation, and spatial organization contribute to healthier living environments. In urban areas, thoughtful planning reduces congestion and improves accessibility. Architecture also plays a role in creating inclusive spaces that cater to people of all ages and abilities, making modern living more equitable and enjoyable.</p>
+</article>
+
+<article class="container section fade-in">
+    <div class="section-header">
+        <div class="section-icon"><i class="fas fa-city"></i></div>
+        <h2>The future of architecture in developing cities</h2>
+    </div>
+    <p>The future of Architecture in cities like Rahim Yar Khan looks promising, with rapid advancements in design and construction. As demand for modern housing grows, Architects, Builders, Contractors, and Developers will continue to innovate. Smart cities, sustainable buildings, and efficient urban planning will shape the next phase of development. The integration of technology and sustainability will redefine how people experience their living spaces, making them more adaptable and resilient.</p>
+</article>
+
+<article class="container section fade-in">
+    <div class="section-header">
+        <div class="section-icon"><i class="fas fa-check-circle"></i></div>
+        <h2>Conclusion</h2>
+    </div>
+    <p>Architecture is a fundamental force that shapes modern living in countless ways. From the design of individual homes to the planning of entire cities, every aspect of Architecture influences how people live, interact, and thrive. In Rahim Yar Khan, the combined efforts of Designers, Contractors, Builders, and Developers are transforming the region into a modern and dynamic environment. As Architecture continues to evolve, it will play an even greater role in creating spaces that are functional, sustainable, and enriching for future generations.</p>
+</article>
+
+<!-- Second link: mid of paragraph (integrated in a dedicated mid-article section with link) -->
+
+
+<!-- Conclusion section with integrated Google Map (updated from provided link) and third link -->
+<section class="container conclusion-container fade-in">
+    <article class="conclusion-text">
+        <h2><i class="fas fa-archway" style="color: var(--primary);"></i> Final Reflection</h2>
+        <p>Architecture is a fundamental force that shapes modern living in countless ways. From the design of individual homes to the planning of entire cities, every aspect of Architecture influences how people live, interact, and thrive. In Rahim Yar Khan, the combined efforts of Designers, Contractors, Builders, and Developers are transforming the region into a modern and dynamic environment. As Architecture continues to evolve, it will play an even greater role in creating spaces that are functional, sustainable, and enriching for future generations.</p>
+        <p>For those seeking deeper expertise and collaborative architectural solutions, <strong><a href="https://alharmainassociate.pk/architecture/" class="article-link" target="_blank" rel="noopener noreferrer">modern construction guidance</a></strong> to elevate every project.</p>
+    </article>
+    <div class="conclusion-map">
+        <!-- Updated Google Map embed from the provided link: Main Canal Road, Near Passport Office, Rahim Yar Khan -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.861216406309!2d70.3030916!3d28.416247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3937f1b0f0f0f0f0%3A0x0!2sMain%20Canal%20Road%2C%20Near%20Passport%20Office%2C%20Rahim%20Yar%20Khan!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Al Harmain Associate - Main Canal Road, Near Passport Office, Rahim Yar Khan"></iframe>
+    </div>
+</section>
+
+<!-- CTA Banner with Contact Us button and phone number -->
+<section class="container cta-banner fade-in">
+    <h3>Shape the future with intelligent architecture</h3>
+    <p>Connect with experts who turn visionary designs into enduring landmarks.</p>
+    <div class="contact-buttons" style="margin: 20px 0 0;">
+        <a href="tel:+923009676908" class="contact-btn"></i> Contact Us</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="container footer fade-in">
+    <div class="footer-info">
+        <strong>Al Harmain Associate</strong><br>
+        Main Canal Road, Near Passport Office, Rahim Yar Khan<br>
+        Architecture & Modern Living Forum — Insights on building structure, designer visions, contractor excellence, and urban development.
+    </div>
+    <div class="copyright">
+        © 2025 Al Harmain Associate — Rahim Yar Khan. All Rights Reserved.<br>
+        Celebrating innovative Designers, Contractors, Builders, and Developers shaping tomorrow.
+    </div>
+</footer>
+
+</body>
+</html>
